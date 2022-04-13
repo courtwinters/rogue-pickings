@@ -1,0 +1,137 @@
+body {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+header {
+  padding: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 30px;
+  line-height: 23px;
+}
+
+h1 span {
+  color: black;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 10px;
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+.top,
+.bottom {
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-image {
+  height: auto;
+  float: left;
+}
+
+.main-image img {
+  border-bottom: 3px solid #77a466;
+}
+
+.title {
+  height: auto;
+  float: left;
+}
+
+.title h2 {
+  text-align: left;
+  padding: 5px 0;
+  color: #77a466;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+
+.section-one,
+.section-two,
+.section-three {
+  width: 399px;
+  height: auto;
+  float: left;
+  border-top: 2px solid #eee;
+}
+
+.section-one h3 {
+  padding: 10px 0;
+}
+
+.section-two {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+
+}
+
+.section-two h3,
+.section-three h3 {
+  padding: 10px 30px;
+}
+
+.specials {
+  list-style: none;
+  padding: 0;
+}
+
+.specials li {
+  padding: 10px 0;
+  color: #77a466;
+}
+
+.reviews {
+  color: #333;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.contact {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  height: 50px;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+footer h3 span {
+  color: #77a466;
+  font-family: 'Galada', cursive;
+  text-transform: lowercase;
+}
